@@ -1,0 +1,58 @@
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  /* Style the label to display next to the inputs */
+  label {
+    margin-left: 20px;
+    display: inline-block;
+    
+  }
+  input[type=radio]{
+      margin-top: 10px;
+      width: 20px;
+  }
+  /* Style the submit button */
+  .dangky .container input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  /* Style the container */
+  .dangky .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  /* Floating column for labels: 25% width */
+  .dangky .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  /* Floating column for inputs: 75% width */
+  .dangky .col-75 {
+    float: left;
+    width: 45%;
+    margin-top: 6px;
+    margin-left: 25PX;
+  }
+  
+  /* Clear floats after the columns */
+  .dangky .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
